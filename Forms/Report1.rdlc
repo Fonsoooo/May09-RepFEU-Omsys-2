@@ -6,15 +6,15 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.3125in</Width>
+              <Width>3.35417in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.3125in</Width>
+              <Width>1.6875in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.42708in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -29,6 +29,7 @@
                               <Style>
                                 <FontFamily>Century Gothic</FontFamily>
                                 <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -41,10 +42,12 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
+                        <BackgroundColor>#252525</BackgroundColor>
+                        <VerticalAlign>Bottom</VerticalAlign>
+                        <PaddingLeft>5pt</PaddingLeft>
+                        <PaddingRight>5pt</PaddingRight>
+                        <PaddingTop>5pt</PaddingTop>
+                        <PaddingBottom>5pt</PaddingBottom>
                       </Style>
                     </Textbox>
                   </CellContents>
@@ -62,10 +65,13 @@
                               <Style>
                                 <FontFamily>Century Gothic</FontFamily>
                                 <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox15</rd:DefaultName>
@@ -74,6 +80,8 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>#252525</BackgroundColor>
+                        <VerticalAlign>Bottom</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -85,7 +93,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.33333in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -111,6 +119,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -134,7 +143,9 @@
                               </Style>
                             </TextRun>
                           </TextRuns>
-                          <Style />
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Stock1</rd:DefaultName>
@@ -143,6 +154,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -172,10 +184,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>TestingDataSet</DataSetName>
-        <Top>1.41125in</Top>
-        <Left>0.95083in</Left>
-        <Height>0.5in</Height>
-        <Width>4.625in</Width>
+        <Top>1.84875in</Top>
+        <Left>0.805in</Left>
+        <Height>0.76042in</Height>
+        <Width>5.04167in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -190,20 +202,24 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Available Stocks</Value>
+                <Value>REMAINING MATERIALS</Value>
                 <Style>
                   <FontFamily>Century Gothic</FontFamily>
+                  <FontSize>30pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
                 </Style>
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox10</rd:DefaultName>
-        <Top>0.91333in</Top>
-        <Left>0.33in</Left>
-        <Height>0.25in</Height>
-        <Width>1.3in</Width>
+        <Top>0.59458in</Top>
+        <Left>0.805in</Left>
+        <Height>0.60903in</Height>
+        <Width>5.04167in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -228,12 +244,14 @@
                 </Style>
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>ExecutionTime</rd:DefaultName>
-        <Top>0.27514in</Top>
-        <Left>4.63in</Left>
+        <Top>1.27306in</Top>
+        <Left>2.52583in</Left>
         <Height>0.25in</Height>
         <Width>1.61667in</Width>
         <ZIndex>2</ZIndex>
@@ -260,7 +278,9 @@
                 </Style>
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
           </Paragraph>
           <Paragraph>
             <TextRuns>
@@ -271,12 +291,14 @@
                 </Style>
               </TextRun>
             </TextRuns>
-            <Style />
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>0.27514in</Top>
-        <Left>0.33in</Left>
+        <Top>4.57722in</Top>
+        <Left>3.73834in</Left>
         <Height>0.45in</Height>
         <Width>2.50833in</Width>
         <ZIndex>3</ZIndex>
